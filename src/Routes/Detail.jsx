@@ -28,7 +28,7 @@ const Detail = () => {
   return (
     <>
       {notFound 
-      ? <h1>Dentist N°{id} not found!</h1> 
+      ? <h1>Dentist N{id} is not found!</h1> 
       : <>
         <h1>Detail Dentist id {id}</h1>
         <table>

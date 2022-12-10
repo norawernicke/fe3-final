@@ -4,14 +4,13 @@ const Footer = () => {
   return (
     <footer>
         <div className='powered'>
-          <p>Powered by</p>
-          <img src="/images/DH.png" alt='DH-logo' />
+          <p>Powered By</p>
+          <img src="/images/DH.png" alt='DigitalHouse-logo' />
         </div>
         <div className='redes'>
-          <img src="images/ico-facebook.png" alt='Logo facebook' className='icon'/>
-          <img src="images/ico-instagram.png" alt='Logo instagram' className='icon'/>
-          <img src="images/ico-tiktok.png" alt='Logo tiktok' className='icon'/>
-          <img src="images/ico-whatsapp.png" alt='Logo whatsapp' className='icon'/>
+          <img src="images/ico-instagram.png" alt='Logo de instagram' className='icono'/>
+          <img src="images/ico-facebook.png" alt='Logo de facebook' className='icono'/>
+          <img src="images/ico-tiktok.png" alt='Logo de tiktok' className='icono'/>
         </div>
     </footer>
   )
